@@ -8,16 +8,24 @@ By get benefit from  the power of YouTube's API with advanced data retrieval tec
 
 # Questions:
 1-Does the number of likes and comments matter for a video to get more views?
+
 2-Does the video duration matter for views and interaction (likes/ comments)?
+
 3-Does title length matter for views?
+
 4-How many tags do good performing videos have? What are the common tags among these videos?
+
 5-Across all the creators I take into consideration, how often do they upload new videos? On which days in the week?, on which hours in the day?
 
 # Data preparation:
 1-checking null values in columns
+
 2-adding published Day column by extracting day name from date column
+
 3-adding duration in second by converting unknown duration column like(PT16M37S) to second
+
 4-adding tag count and title length columns for more analysis
+
 5-adding two kpis column for viewers engagement likes ratio and comment ratio per 1k views  
 
 # tools used:
